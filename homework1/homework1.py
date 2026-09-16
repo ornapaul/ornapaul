@@ -167,7 +167,8 @@ print ("Hello, my name is", name) # Prints: Hello, my name is Oski
 # 3)
 name = "Oski"
 print(f"Hello, my name is {name}") # Prints: Hello, my name is Oski
-# 4) The difference is that quesiton three uses an fstring, which makes it possible to embed any variable into the string using curly braces. Number 2 instead separates the string and variables manually through quotation marks. The end result is the same.
+# 4) The difference is that quesiton three uses an fstring, which makes it possible to embed any variable into the string using curly braces. 
+# Number 2 instead separates the string and variables manually through quotation marks. The end result is the same.
 
 # --- 3.5 Terminal Commands ---
 
@@ -234,7 +235,8 @@ print(f"Hello, my name is {name}") # Prints: Hello, my name is Oski
  
 # 2) ls and ls -a both list what all is in the current directory, but ls -a also shows hidden files and folders, whereas ls typically does not display those.
 
-#3) A hidden file is one your computer does not show by default. It is usually to keep configuration and deeper system-related files from cluttering folders or accidentally being modified. In macOS, dotfiles are typically hidden (files beggining with a .) Example: ls -l
+#3) A hidden file is one your computer does not show by default. It is usually to keep configuration and deeper system-related files from cluttering folders or accidentally being modified. 
+# In macOS, dotfiles are typically hidden (files beggining with a .) Example: ls -l
 
 #4)
 # -l is used with ls to show a long, detailed list of files and folders. It includes information like permissions, owner, file size, and last-modified date.
